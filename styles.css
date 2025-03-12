@@ -269,11 +269,34 @@ nav .right a span {
   filter: brightness(.9);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 992px) {
   /* SECTION 1: Hero */
   .hero-section .text h2 {
     font-size: 35px;
   }
+    /* SECTION 1: Hero */
+    .hero-section {
+      flex-direction: column-reverse;
+    }
+  
+    .hero-section .headshot img {
+      width: 350px;
+    }
+  
+    /* SECTION 3: Testimony */
+    .testimony-section {
+      text-align: center;
+    }
+  
+    .testimony-section .group {
+      flex-direction: column;
+    }
+  
+    /* SECTION 4: Contact */
+    .contact-section .group {
+      flex-direction: column;
+    }
+  
 }
 
 @media (max-width: 740px) {
