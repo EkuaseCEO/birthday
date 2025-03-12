@@ -76,7 +76,7 @@ nav .right a span {
 }
 
 .hero-section .text h2 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .hero-section .text .links {
@@ -95,7 +95,7 @@ nav .right a span {
 
 .hero-section p {
   font-size: 15px;
-  padding-bottom: 1cm;
+  padding-bottom: 0.3cm;
   line-height: 0.7cm;
 }
 
@@ -111,7 +111,7 @@ nav .right a span {
 }
 
 .hero-section .headshot img {
-  width: 650px;
+  width: 500px;
   border-radius: 50%;
 }
 
@@ -187,7 +187,7 @@ nav .right a span {
 .testimony-section .group .person-details img {
   width: 200px;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+  object-fit:contain;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -203,6 +203,18 @@ nav .right a span {
 .testimony-section .group .text {
   flex: 8;
 }
+
+.testimony-section .group .msg {
+  flex: 8;
+}
+
+.testimony-section .group .msg p {
+  /* flex: 8; */
+  /* font-size: 15p; */
+  padding-bottom: 0.3cm;
+  /* line-height: 0.7cm; */
+}
+
 
 /* SECTION 4: Contact */
 .contact-section {
